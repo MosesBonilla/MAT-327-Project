@@ -28,3 +28,9 @@ C19 <- lm(AQUACULL$wcOne ~1, AQUACULL)
 Con19 <- confint(C19, level=.95)
 C21 <- lm(AQUACULL$wcThree ~1, AQUACULL)
 Con21 <- confint(C21, level=.95)
+
+# using alpha of .05, since level=.95
+
+t.test(AQUACULL$wcOne)
+t.test(AQUACULL$wcThree)
+#drought in 2021 if t.test(wcOne)>t.test(wcThree)
