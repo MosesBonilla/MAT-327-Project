@@ -24,3 +24,7 @@ abline(lm(AQUACULL$wcThree~AQUACULL$wcOne, data=AQUACULL), col="red")
 
 cr13 <- cor(AQUACULL$wcOne, AQUACULL$wcThree)
 
+C19 <- lm(AQUACULL$wcOne ~1, AQUACULL)
+Con19 <- confint(C19, level=.95)
+C21 <- lm(AQUACULL$wcThree ~1, AQUACULL)
+Con21 <- confint(C21, level=.95)
