@@ -16,3 +16,11 @@ var21 <- var(AQUACULL$wcThree)
 sd19 <- sd(AQUACULL$wcOne)
 sd20 <- sd(AQUACULL$wcTwo)
 sd21 <- sd(AQUACULL$wcThree)
+
+plot(AQUACULL$wcOne, AQUACULL$wcThree, xlab="Water from 2019", ylab="water from 2021", main="% of Reclaimed Water used for Agriculture" )
+abline(lm(AQUACULL$wcThree~AQUACULL$wcOne, data=AQUACULL), col="red")
+
+# Using wcOne and wcThree, which are years 2019 & 2021
+
+cr13 <- cor(AQUACULL$wcOne, AQUACULL$wcThree)
+
