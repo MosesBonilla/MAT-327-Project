@@ -1,3 +1,5 @@
 library(readr)
-AQUASTAT <- read_csv("Project/AQUASTAT polished.csv")
-View(AQUASTAT)
+AQUACULL <- read_csv("Project/AQUASTAT polished culled.csv")
+View(AQUACULL)
+hist(AQUACULL$wcOne)
+
