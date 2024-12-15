@@ -1,0 +1,18 @@
+2019
+Mean (trimmed) = 11.95314
+median =1.667521
+variance = 571.0088
+SD = 23.89579
+
+
+2020
+Mean (trimmed) = 12.01724
+median =1.470897
+variance = 575.202
+SD = 23.98337
+
+2021
+Mean (trimmed) = 12.07887
+median = 1.761538
+variance = 573.842
+SD = 23.955
