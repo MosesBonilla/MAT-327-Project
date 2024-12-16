@@ -33,4 +33,6 @@ Con21 <- confint(C21, level=.95)
 
 t.test(AQUACULL$wcOne)
 t.test(AQUACULL$wcThree)
+
+t.test(AQUACULL$wcTwo)
 #drought in 2021 if t.test(wcOne)>t.test(wcThree)
